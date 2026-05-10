@@ -20,7 +20,7 @@ body {
 
 
 aside {
-    background-color: rgb(192, 116, 116);
+    background-color: rgba(192, 116, 116, 0);
     height: 100vh;
     width: 30%;
 
@@ -28,14 +28,80 @@ aside {
     justify-content: center;
 }
 
-#lateral{
+#lateral {
     display: flex;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0);
     width: 60%;
+    flex-direction: column;
+    gap: 5vh;
 }
 
 #N_logo {
+    width: 2vw;
+    height: 5vh;
+    margin-top: 5vh;
+
+    background-image: url("./../assets/Netflix_Logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 255, 0);
+}
+
+.barra_lateral {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+#links {
+    margin-top: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+
+#link_1,
+#link_2 {
+    width: 60%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+}
+
+
+.home {
+    width: 0.2vw;
+    height: 4vh;
+    background-color: red;
+}
+
+
+.portal {
+    width: 0.2vw;
+    height: 4vh;
     background-color: blue;
-    width: 3vw;
-    height: 7vh;
+}
+
+#link_1,
+#link_2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main {
+    background-color: red;
+    display: flex;
+    height: 100vh;
 }
