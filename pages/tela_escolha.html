@@ -4,29 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NPortal</title>
+    <title>NPortal - Títulos</title>
+    <link rel="stylesheet" href="./../styles/home.css">
+    <link rel="stylesheet" href="./../styles/tela_escolha.css">
 </head>
 
 <body>
     <aside>
-        <div id="N_logo"></div>
-        <div id="links">
-            <div id="link_1"></div>
-            <div id="link_2"></div>
+        <div id="lateral">
+            <div id="N_logo"></div>
+            <div id="links">
+                <div class="barra_lateral">
+                    <div class="home" style="background-color: rgb(38, 0, 255);"></div>
+                    <div onclick="window.location.href='./../index.html'" id="link_1">
+                        <p>Home</p>
+                    </div>
+                </div>
+                <div class="barra_lateral">
+                    <div class="portal" style="background-color: rgb(255, 0, 0);"></div>
+                    <div onclick="window.location.href='./tela_escolha.html'" id="link_2">
+                        <p>Portal</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </aside>
     <main>
         <div class="linha_divisao"></div>
-        <div id="titulos">
-            <h1 id="titulo_1"></h1>
-            <div id="vermelho" class="barra_color"></div>
-
-            <h1 id="tidulo_2"></h1>
-            <div id="azul" class="barra_color"></div>
-            
-            <h1 id="tidulo_3"></h1>
-            <div id="verde" class="barra_color"></div>
-        </div>
+        <h1 onclick="window.location.href='./portais/portal_1.html'" class="titulo">Girigo</h1>
+        <h1 class="titulo">Titulo 2</h1>
+        <h1 class="titulo">Titulo 3</h1>
     </main>
 </body>
 
