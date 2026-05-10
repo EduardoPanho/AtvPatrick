@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("./../assets/Background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+aside {
+    background-color: rgb(192, 116, 116);
+    height: 100vh;
+    width: 30%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#lateral{
+    display: flex;
+    background-color: red;
+    width: 60%;
+}
+
+#N_logo {
+    background-color: blue;
+    width: 3vw;
+    height: 7vh;
+}
