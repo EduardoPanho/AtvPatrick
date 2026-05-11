@@ -1,5 +1,5 @@
 body {
-    background-image: url("./../assets/Portal_2.png");
+    background-image: url("./../assets/background/Portal_2.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@ body {
 }
 
 #Banner_1 {
-    background-image: url("./../assets/Banner_1.jpeg");
+    background-image: url("./../assets/banners/Banner_1.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body {
 }
 
 #Banner_2 {
-    background-image: url("./../assets/Banner_2.jpeg");
+    background-image: url("./../assets/banners/Banner_2.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,4 +90,12 @@ p {
     gap: 3rem;
 
     color: white;
+}
+
+.home{
+    background-color: blue;
+}
+
+.portal{
+    background-color: red;
 }

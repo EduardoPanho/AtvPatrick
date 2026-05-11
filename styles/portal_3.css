@@ -1,5 +1,5 @@
 body {
-    background-image: url("./../assets/background/Portal_1.png");
+    background-image: url("./../assets/background/Portal_3.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,22 +25,24 @@ body {
     gap: 2rem;
 }
 
-#send {
-    background-image: url("./../assets/banners/Send.png");
+#Banner_1 {
+    background-image: url("./../assets/banners/Picture_1.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 75vh;
     width: 100%;
+    border-radius: 2rem;
 }
 
-#timer {
-    background-image: url("./../assets/banners/Timer.png");
+#Banner_2 {
+    background-image: url("./../assets/banners/Picture_2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 75vh;
     width: 100%;
+    border-radius: 2rem;
 }
 
 #textos {
@@ -53,12 +55,9 @@ body {
 }
 
 #titulo {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 1rem;
     min-height: 9vh;
-    padding: 1rem;
 }
 
 .titulo {
@@ -70,16 +69,6 @@ body {
     flex-direction: column;
     width: 100%;
     gap: 1rem;
-}
-
-
-#app_icon {
-    background-image: url("./../assets/icons/Girigo_Logo.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 8.8vh;
-    width: 47%;
 }
 
 #trailer {
@@ -101,35 +90,6 @@ p {
     gap: 3rem;
 
     color: white;
-}
-
-#apps {
-    height: 5vh;
-    display: flex;
-    gap: 1rem;
-}
-
-.icon {
-    height: 100%;
-    width: 5.4vh;
-    border: none;
-}
-
-#play_store {
-    background-image: url("./../assets/icons/play_store.jpeg");
-}
-
-#app_store {
-    background-image: url(./../assets/icons/app_store.jpeg);
-}
-
-#play_store,
-#app_store {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 20%;
-    cursor: pointer;
 }
 
 .home{

@@ -19,7 +19,7 @@ body {
 }
 
 body {
-    background-image: url("./../assets/Background.png");
+    background-image: url("./../assets/background/Background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ aside {
     height: 4vh;
     margin-top: 4.2vh;
 
-    background-image: url("./../assets/Netflix_Logo.png");
+    background-image: url("./../assets/icons/Netflix_Logo.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -129,10 +129,23 @@ main {
 }
 
 .titulo {
-    font-family: 'Inter', sans-serif;
-
     font-size: 6rem;
+}
 
+#info {
+    font-size: 2rem;
+    height: 50vh;
+}
+
+#gap{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#info,
+.titulo {
+    font-family: 'Inter', sans-serif;
     color: white;
     width: 80%;
     cursor: pointer;
@@ -143,7 +156,7 @@ main {
     width: 4vw;
     margin-left: 0.4vw;
 
-    background-image: url("./../assets/Netflix_Logo.png");
+    background-image: url("./../assets/icons/Netflix_Logo.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -167,4 +180,12 @@ main {
 #green {
     background: #15ff00;
     background: linear-gradient(90deg, rgba(21, 255, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.portal {
+    background-color: blue;
+}
+
+.home {
+    background-color: red;
 }
