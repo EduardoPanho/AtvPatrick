@@ -27,20 +27,19 @@ body {
 
 #send {
     background-image: url("./../assets/banners/Send.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 75vh;
-    width: 100%;
 }
 
 #timer {
     background-image: url("./../assets/banners/Timer.png");
-    background-size: cover;
+}
+
+#send,
+#timer {
+    width: 100%;
+    aspect-ratio: 9 / 19.5;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 75vh;
-    width: 100%;
 }
 
 #textos {
@@ -79,7 +78,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 8.8vh;
-    width: 47%;
+    width: 46%;
+    border-radius: 27%;
+    border: 3px inset #ffffff;
 }
 
 #trailer {
@@ -200,7 +201,6 @@ p {
     #send,
     #timer {
         width: 80%;
-        height: 111vh;
     }
 
     #apps {
