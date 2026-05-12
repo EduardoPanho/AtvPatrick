@@ -92,10 +92,74 @@ p {
     color: white;
 }
 
-.home{
+.home {
     background-color: blue;
 }
 
-.portal{
+.portal {
     background-color: red;
+}
+
+@media (max-width: 708px) {
+
+    body {
+        background-image: url("./../assets/background/Portal_2_media.png");
+
+    }
+
+
+    #conteudo_principal {
+        flex-direction: column-reverse;
+        width: 95%;
+        align-items: center;
+    }
+
+    #textos {
+        background-color: rgba(255, 251, 0, 0);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 2rem;
+    }
+
+    #titulo {
+        gap: 1rem;
+        min-height: 30vh;
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .titulo {
+        font-size: 5rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    .subtitulos {
+        gap: 3rem;
+    }
+
+    #celulares {
+        width: 54%;
+    }
+
+    #celulares {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+        display: flex;
+        align-items: center;
+        margin: 5rem;
+    }
+
+    #Banner_1,
+    #Banner_2 {
+        width: 80%;
+        height: 111vh;
+    }
+
 }

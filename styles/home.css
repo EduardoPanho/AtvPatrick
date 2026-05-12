@@ -12,6 +12,18 @@ body {
     font-size: 16px;
 }
 
+header {
+    height: 13%;
+    width: 100%;
+    position: fixed;
+
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.4px);
+    -webkit-backdrop-filter: blur(12.4px);
+
+}
+
 body {
     display: flex;
     flex-direction: row;
@@ -90,12 +102,7 @@ main {
     margin-left: 28%;
 }
 
-.home {
-    width: 0.14vw;
-    height: 2.4vh;
-}
-
-
+.home,
 .portal {
     width: 0.14vw;
     height: 2.4vh;
@@ -137,7 +144,7 @@ main {
     height: 50vh;
 }
 
-#gap{
+#gap {
     display: flex;
     flex-direction: column;
     gap: 5rem;
@@ -188,4 +195,88 @@ main {
 
 .home {
     background-color: red;
+}
+
+@media (max-width: 708px) {
+    aside {
+        width: 100%;
+        height: 15vh;
+    }
+
+    #N_logo {
+        margin-top: 0vh;
+        width: 3vh;
+        height: 6vh;
+    }
+
+
+    #lateral {
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+
+        justify-content: center;
+        align-items: center;
+
+        background: rgba(255, 255, 255, 0);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(12.4px);
+        -webkit-backdrop-filter: blur(12.4px);
+    }
+
+    .barra_lateral {
+        display: flex;
+        align-items: center;
+        gap: 7vw;
+    }
+
+    #links {
+        flex-direction: row;
+        margin-top: 0vh;
+        width: 80%;
+        height: 5vh;
+
+        justify-content: flex-end;
+    }
+
+    main {
+        margin-left: 5%;
+    }
+
+    #img_titulo {
+    height: 11vh;
+    width: 7vw;
+}
+
+
+    .titulo {
+        font-size: 3rem;
+    }
+
+    .linha_divisao {
+        width: 95%;
+    }
+
+    #info {
+        height: 70vh;
+    }
+
+    .home,
+    .portal {
+        width: 0.5vw;
+        height: 2.4vh;
+    }
+
+    #link_1,
+    #link_2 {
+        font-size: 1.5rem;
+    }
+
+    .linha_divisao {
+    border-bottom: 3px solid rgb(82, 82, 82);
+    width: 95%;
+
+    padding-top: 7rem;
+    margin-bottom: 2rem;
+}
 }
